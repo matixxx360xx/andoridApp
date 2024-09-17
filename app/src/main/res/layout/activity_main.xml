@@ -11,11 +11,45 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="137dp"
-        android:layout_height="23dp"
-        android:text="Wizyta u Weterynarza"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="41dp" />
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:background="#2E8B57"
+        android:text="wizyta u weterynarza"
+        android:padding="10sp"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="318dp"
+        android:layout_height="11dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ile ma lat"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="imie i nazwisko wlasiceila"
+        android:textColor="#9f9f9f"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="76dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
