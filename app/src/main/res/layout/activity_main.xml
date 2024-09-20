@@ -25,18 +25,20 @@
         android:id="@+id/seekBar2"
         android:layout_width="318dp"
         android:layout_height="11dp"
+
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="256dp" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ile ma lat"
+        android:layout_width="78dp"
+        android:layout_height="18dp"
+        android:text="ile ma lat 0"
+        android:textColor="#9f9f9f"
         tools:ignore="HardcodedText,MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="248dp" />
+        tools:layout_editor_absoluteY="249dp" />
 
     <EditText
         android:id="@+id/editTextText"
@@ -50,6 +52,40 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="76dp"
         tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="405dp"
+        android:layout_height="21dp"
+        android:text="gatunek"
+        android:textColor="#9f9f9f"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="409dp"
+        android:layout_height="34dp"
+        android:inputType="text"
+        android:text="pies"
+        android:textSize="38px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="404dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="kot"
+        android:textSize="33px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="182dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
